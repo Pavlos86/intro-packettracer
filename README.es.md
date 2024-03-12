@@ -37,7 +37,7 @@ En resumen, Packet Tracer es una herramienta poderosa y versátil que te permite
 
 Esta es la ventana de Packet Tracer, vamos a identificar las areas que vamos a trabajar.
 
-![Interfaz de Packet Tracer](./assets/pkt-interface.png)
+![Interfaz de Packet Tracer](https://github.com/4GeeksAcademy/intro-packettracer/raw/main/assets/Intro%20packet%20tracer.pka)
 
 1. Tipos de dispositvos
 2. Dispositivos
