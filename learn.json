@@ -1,10 +1,10 @@
 {
 	"slug" : "introduction-to-packet-tracer",
 	"title" : "Introduction to Packet Tracer",
-	"preview": "https://github.com/4GeeksAcademy/build-your-full-stack-developer-resume/blob/main/preview.png?raw=trueg",
+	"preview": "https://breathecode.herokuapp.com/v1/media/file/thumbnail-introduccion-packet-tracer",
 	"status": "draft",
 	"translations": ["us","es"],
-	"technologies": ["cybersecurity", "networking"],
+	"technologies": ["cybersecurity", "network"],
 	"difficulty": "beginner",
 	"syntax": "markdown",
 	"duration" : 3,
@@ -12,9 +12,9 @@
 	"description" : "Build a Full Stack Developer Resume to showcase your skills, stand out from the crowd and land interviews",
 	"delivery": {
 		"instructions": {
-			"us": "Please drag your finished resume as a PDF file and upload it here",
-			"es": "Porfavor adjunta tu resume/CV listo y como archivo PDF"
+			"us": "Please drag your finished pka file and upload it here",
+			"es": "Por favor adjunta tu archivo pka listo y cárgalo aquí"
 		},
-		"formats": ["application/pdf"]
+		"formats": ["application/x-pka"]
 	}
 }
