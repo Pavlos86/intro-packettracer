@@ -49,4 +49,4 @@ Esta es la ventana de Packet Tracer, vamos a identificar las areas que vamos a t
 
 ## 📝 Crea tu primera red
 
-[Descarga aquí](./assets/Intro-packet-tracer.pka) la guía interactiva que te guiará en la conexión de tu primera red en Packet Tracer. Con ello aprenderás los fundamentos de esta herramienta que te servirán para el resto del curso, donde tendrás que simular escenarios para análisis de ciberseguridad.
+[Descarga aquí](https://github.com/4GeeksAcademy/intro-packettracer/raw/main/assets/Intro-packet-tracer.pka) la guía interactiva que te guiará en la conexión de tu primera red en Packet Tracer. Con ello aprenderás los fundamentos de esta herramienta que te servirán para el resto del curso, donde tendrás que simular escenarios para análisis de ciberseguridad.
