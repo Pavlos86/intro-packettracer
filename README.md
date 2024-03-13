@@ -2,7 +2,7 @@
 # Introduccion a Packet Tracer
 <!--endhide-->
 
-Packet Tracer es una herramienta de simulación de redes desarrollada por Cisco. Permite crear redes virtuales completas, con routers, switches, firewalls y otros dispositivos, para luego ejecutar pruebas y simulaciones.
+Cisco™ Packet Tracer es una herramienta de simulación de redes desarrollada por Cisco. Permite crear redes virtuales completas, con routers, switches, firewalls y otros dispositivos, para luego ejecutar pruebas y simulaciones.
 
 Es una herramienta ideal para aprender sobre redes y ciberseguridad, ya que te permite:
 
@@ -17,7 +17,7 @@ En resumen, Packet Tracer es una herramienta poderosa y versátil que te permite
 
 ### Para descargar Packet Tracer
 
-1. Accede al siguiente [este enlace](https://www.netacad.com/portal/resources/packet-tracer). 
+1. Accede al siguiente [este enlace](https://www.netacad.com/portal/resources/packet-tracer).
 2. Necesitarás crear una cuenta para entrar, acceder con tu cuenta de Google facilita el proceso.
 3. Ubica la seccion "Download".
 4. Elige la versión compatible con tu sistema operativo (Windows, macOS o Linux).
@@ -38,14 +38,20 @@ Esta es la ventana de Packet Tracer, vamos a identificar las areas que vamos a t
 
 ![Interfaz de Packet Tracer](./assets/pkt-interface.png)
 
-1. Tipos de dispositvos
-2. Dispositivos
-3. Area de trabajo
-4. Instrucciones de la actividad
-5. Pruebas de conectividad
-6. Barra de herramientas
-7. Barra de menú
+1. Tipos de dispositivos: Aquí puedes encontrar organizados por categorías los distintos dispositivos que puedes representar en Packet Tracer, desde dispositivos de red como switches y routers, hasta dispositivos IOT como un ventilador inteligente.
+
+2. Dispositivos: Muestra los dispositivos que se encuentran en la categoría seleccionada en la sección anterior. Desde aquí puedes arrastrarlos y colocarlos donde quieras en el Area de trabajo
+
+3. Area de trabajo: Aquí es donde iras acomodando los distintos dispositivos y conectándolos para armar tu red. En este curso nos enfocaremos en la vista lógica, donde puedes armar una representación gráfica de tu red y configurarla. Packet Tracer también permite simular espacios físicos y conexiones entre distintos espacio, pero como se mencionó, esto va mas allá del alcance de este curso.
+
+4. Instrucciones de la actividad: En esta ventana puedes ver paso a paso las instrucciones para realizar la actividad. Puedes ir adelante y atrás en la medida que vayas necesitando avanzar o revisar algún paso previo, y en tiempo real puedes ver el porcentaje de completación de tu actividad. Si llegas a cerrar la ventana, puedes volver a abrirla desde el menú "Window".
+
+5. Pruebas de conectividad: Esta lista te muestra las pruebas de conexión entre dispositivos de tu simulación, con esto compruebas qué dispositivo se está conectando y cual no.
+
+6. Barra de herramientas: Como en cualquier aplicación esta barra te muestra con íconos las opciones mas utilizadas. Con el tiempo podrás identificar cada ícono, pero colocando el cursor encima puedes leer el nombre de la función que ejecuta el ícono.
+
+7. Barra de menú: Todas las funciones que se encuentran en la barra de herramientas, y algunas que no, las puedes ubicar en estos menús.
 
 ## 📝 Crea tu primera red
 
-[Descarga aquí](https://github.com/4GeeksAcademy/intro-packettracer/raw/main/assets/Intro-packet-tracer.pka) la guía interactiva que te guiará en la conexión de tu primera red en Packet Tracer. Con ello aprenderás los fundamentos de esta herramienta que te servirán para el resto del curso, donde tendrás que simular escenarios para análisis de ciberseguridad.
+[Descarga aquí](./assets/Intro-packet-tracer.pka) la guía interactiva que te guiará en la conexión de tu primera red en Packet Tracer. Con ello aprenderás los fundamentos de esta herramienta que te servirán para el resto del curso, donde tendrás que simular escenarios para análisis de ciberseguridad.
