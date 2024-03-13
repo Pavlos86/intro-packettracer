@@ -17,12 +17,11 @@ En resumen, Packet Tracer es una herramienta poderosa y versátil que te permite
 
 ### Para descargar Packet Tracer
 
-1. Crea una cuenta gratuita en Cisco Networking Academy: https://www.netacad.com/es
-2. Inicia sesión en tu cuenta.
-3. En el menú superior, selecciona "Recursos".
-4. En la sección "Software", haz clic en "Descargar Packet Tracer".
-5. Elige la versión compatible con tu sistema operativo (Windows, macOS o Linux).
-6. Haz clic en el enlace de descarga y guarda el archivo en tu computadora.
+1. Accede al siguiente [este enlace](https://www.netacad.com/portal/resources/packet-tracer). 
+2. Necesitarás crear una cuenta para entrar, acceder con tu cuenta de Google facilita el proceso.
+3. Ubica la seccion "Download".
+4. Elige la versión compatible con tu sistema operativo (Windows, macOS o Linux).
+5. Haz clic en el enlace de descarga y guarda el archivo en tu computadora.
 
 ### Para instalar Packet Tracer
 
