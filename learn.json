@@ -15,6 +15,6 @@
 			"us": "Please drag your finished pka file and upload it here",
 			"es": "Por favor adjunta tu archivo pka listo y cárgalo aquí"
 		},
-		"formats": ["application/x-pka"]
+		"formats": [".pka"]
 	}
 }
