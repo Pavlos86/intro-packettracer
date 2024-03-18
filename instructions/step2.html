@@ -2,10 +2,15 @@
   .box{
     border-left: 2px black solid; padding: 5px;
   }
-  img{
+  .brand{
     max-width: 30%;
     float: left;
     position: relative;
+  }
+  .screenshot{
+    max-width: 100%;
+    border: 1px solid black;
+    margin: 5px;
   }
   body{
     display: flex;
@@ -13,22 +18,39 @@
     align-items: center;
   }
 </style>
-<img src="https://breathecode.herokuapp.com/v1/media/file/new-logo-4geeks-png" alt="4geeks Logo">
+<img class="brand" src="https://breathecode.herokuapp.com/v1/media/file/new-logo-4geeks-png" alt="4geeks Logo">
 <div style="display: flex;flex-direction: row;justify-content: space-evenly;">
   <div class="box">
     <h2>
       Fiber optic connections
     </h2>
     <p>
-      In this interactive activity you'll learn how to use the basic functionalities of Packet Tracer, connecting the devices to form a connected network, for this you'll connect the devices and setup the necessaries configurations to make it work
+      Fiber optics is often use to connect devices that require massive bandwidth and stability between them, we are talking about connections between offices in a building, or even between completely different buildings.
     </p>
+    <ol>
+      <li>Go to the connections section to see the links available</li>
+      <li>Select the "Fiber" connection. You can identify it as the straight orange line </li>
+      <li>You'll note that the cursor changes, now is the time to click in "Router 0" and select the fiber "GigabitEthernet0/0" interface. This connects one end of the cable</li>
+      <li>Then click on the "Switch 0" and select the fiber "GigabitEthernet0/0" interface. This connects the other end of the cable</li>
+      <li>With both ends linked you'll see a red line connecting the devices</li>
+    </ol>
   </div>
   <div class="box">
     <h2>
-      Conexiones de fibra optica
+      Conexiones de fibra óptica
     </h2>
     <p>
-      En esta actividad interactiva aprenderás a usar las funciones básicas de Packet Tracer, conectando los dispositivos para formar una red interconectada, para ello conectaras los dispositivos y establecerás las configuraciones necesarias para hacer la red funcionar.
+      La fibra óptica generalmente se utiliza para conectar dispositivos que requieren un gran ancho de banda y estabilidad entre ellos, nos referimos a conexiones entre oficinas dentro de un edificio o incluso conexiones entre edificios diferentes.
     </p>
+    <ol>
+      <li>Ve a la sección "connections" para ver los enlaces disponibles</li>
+      <li>Selecciona la conexión "Fiber". Puedes identificarla con una linea continua de color naranja</li>
+      <li>Notarás que el cursor cambia, ahora es el momento de hacer click en el router "Router 0" y seleccionar la interfaz de fibra "GigabitEthernet0/0". Esto conecta un extremo del cable.</li>
+      <li>Luego haz click en el "Switch 0" y selecciona la interfaz "GigabitEthernet0/0". Esto conectará el otro extremo del enlace</li>
+      <li>Com ambos extremos enlazados, podrás ver la linea roja que conecta los dispositivos</li>
+    </ol>
   </div>
 </div>
+<img class="screenshot" src="../assets/fiber-connection-1.png" alt="">
+<img class="screenshot" src="../assets/fiber-connection-2.png" alt="">
+<img class="screenshot" src="../assets/fiber-connection-3.png" alt="">
