@@ -1,0 +1,127 @@
+<style>
+  .box {
+    border-left: 2px black solid;
+    padding: 5px;
+    width: 50%;
+  }
+
+  .brand {
+    max-width: 30%;
+    float: left;
+    position: relative;
+  }
+
+  li {
+    padding-bottom: 10px;
+  }
+
+  .screenshot {
+    max-width: 100%;
+    border: 1px solid black;
+    margin: 5px;
+  }
+
+  .quote {
+    padding: 5px 15px;
+    border-left: solid gray 1px;
+    margin: 0px;
+    font-style: italic;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+</style>
+<img class="brand" src="https://breathecode.herokuapp.com/v1/media/file/new-logo-4geeks-png" alt="4geeks Logo">
+<div class="container">
+  <div class="box">
+    <h2>
+      Connecting end-devices
+    </h2>
+    <p>
+      To finish our network, we need to connect the rest of the devices that we have on the screen. To do this, we will
+      connect the cables with the Automatic Connection and configure the devices to receive a dynamic IP from the server
+      that we configured in the previous step.
+    </p>
+    <h3>On "Server 0"</h3>
+    <ol>
+      <li>
+        Clicking on the PC will show the configuration options in the "Config" tab.
+      </li>
+      <li>
+        In the left panel, you will see the "FastEthernet0" interface.
+      </li>
+      <li>
+        You will have to activate the interface with the "Status port" checkbox.
+      </li>
+      <li>
+        In the "IP Configuration" section, select the "DHCP" option to receive a dynamic IP from the server.
+      </li>
+    </ol>
+  </div>
+  <div class="box">
+    <h2>
+      Conectando dispositivos finales
+    </h2>
+    <p>
+      Para terminar nuestra red, debemos conectar el resto de los dispositivos que tenemos en pantalla. Para ello
+      conectaremos los cables con la Conexión automática y configuraremos los equipos para recibir una IP dinámica desde
+      el servidor que configuramos en el paso anterior.
+    </p>
+    <h3>En la "PC 0"</h3>
+    <ol>
+      <li>Haciendo click en la PC veremos las opciones de configuración en la pestaña "Config"</li>
+      <li>En el panel izquierdo podremos ver la interfaz "FastEthernet0"</li>
+      <li>Tendrás que activar la interfaz con la casilla de verificación "Status port"</li>
+      <li>En la sección "IP Configuration" selecciona la opcion "DHCP" para recibir una IP dinámica del servidor</li>
+
+    </ol>
+  </div>
+</div>
+
+<img class="screenshot"
+  src="https://raw.githubusercontent.com/4GeeksAcademy/intro-packettracer/main/assets/autoconnect.png" alt="">
+<div class="container">
+  <div class="box">
+    <h3>Connecting the server to the switch</h3>
+    <ol>
+      <li>To use the auto-connect feature, we will select the orange lightning bolt icon in the "Connections" section.
+      </li>
+    </ol>
+  </div>
+  <div class="box">
+    <h3>Conectando el servidor al switch</h3>
+    <ol>
+      <li>Para esto utilizaremos la función de conexión automática, para esto seleccionaremos el icono del rayo naranja
+        en la sección "Connections"</li>
+    </ol>
+  </div>
+</div>
+
+<img class="screenshot"
+  src="https://raw.githubusercontent.com/4GeeksAcademy/intro-packettracer/main/assets/autoconnect.png" alt="">
+
+<div class="container">
+  <div class="box">
+    <ol start="2">
+      <li>When the cursor changes, we can click on the server and then on the switch to create the link. This tool
+        automatically determines the correct link type and selects a compatible interface.</li>
+    </ol>
+  </div>
+  <div class="box">
+    <ol start="2">
+      <li>Cuando el cursor cambie, podremos hacer click en el servidor y luego en el switch para hacer el enlace. Esta
+        herramienta determina automáticamente el tipo de enlace correcto y selecciona una interfaz compatible</li>
+    </ol>
+  </div>
+</div>
+<img class="screenshot"
+  src="https://raw.githubusercontent.com/4GeeksAcademy/intro-packettracer/main/assets/server-4.png" alt="">
