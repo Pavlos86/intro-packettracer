@@ -1,0 +1,134 @@
+<style>
+  .box {
+    border-left: 2px black solid;
+    padding: 5px;
+    width: 50%;
+  }
+
+  .brand {
+    max-width: 30%;
+    float: left;
+    position: relative;
+  }
+
+  li {
+    padding-bottom: 10px;
+  }
+
+  .screenshot {
+    max-width: 100%;
+    border: 1px solid black;
+    margin: 5px;
+  }
+
+  .quote {
+    padding: 5px 15px;
+    border-left: solid gray 1px;
+    margin: 0px;
+    font-style: italic;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+</style>
+<img class="brand" src="https://breathecode.herokuapp.com/v1/media/file/new-logo-4geeks-png" alt="4geeks Logo">
+<div class="container">
+  <div class="box">
+    <h2>
+      Fiber optic connections
+    </h2>
+    <p>
+      Fiber optics is often use to connect devices that require massive bandwidth and stability between them, we are
+      talking about connections between offices in a building, or even between completely different buildings.
+    </p>
+    <ol>
+      <li>Go to the connections section to see the links available</li>
+      <li>Select the "Fiber" connection. You can identify it as the straight orange line </li>
+      <li>You'll note that the cursor changes, now is the time to click in "Router 0" and select the fiber
+        "GigabitEthernet0/0" interface. This connects one end of the cable</li>
+      <li>Then click on the "Switch 0" and select the fiber "GigabitEthernet0/0" interface. This connects the other end
+        of the cable</li>
+      <li>With both ends linked you'll see a red line connecting the devices</li>
+    </ol>
+  </div>
+  <div class="box">
+    <h2>
+      Configurando el servidor
+    </h2>
+    <p>
+      El servidor es un dispositivo de nuestra red, que como su nombre lo indica, presta servicios a los demás
+      dispositivos. En este caso el servicio que configuraremos es el DHCP, que se encarga de asignar direcciones IP
+      automáticamente a todos los dispositivos que se conecten a la red. Con esto evitaremos tener que configurar
+      direcciones IP manualmente a todos los dispositivos uno por uno.
+    </p>
+    <h3>En el "Server 0"</h3>
+    <ol>
+      <li>Haciendo click en el icono del dispositivo se abre la ventana de configuración de este</li>
+      <li>Enciende el servidor haciendo click en el interruptor, verás como el led cambia a verde</li>
+      <li>Luego deberías ir a la pestaña "Config". Puede que tengas que esperar un breve tiempo mientras el equipo
+        enciende, justo como en la vida real</li>
+      <li>En el panel izquierdo, selecciona la interfaz "FastEthernet0"</li>
+      <li>Dentro de la interfaz, activala con la casilla de verificación de "Port Status"</li>
+      <li>Ademas también tendrás que configurar una dirección IP y una mascara de subred
+        <ul>
+          <li><strong>IPV4 Address:</strong> 192.168.0.10</li>
+          <li><strong>Subnet Mask:</strong> 255.255.255.0</li>
+        </ul>
+        Colocaremos una dirección IP distinta, pero dentro del mismo rango. Los cálculos de estos rangos de IP quedan
+        fuera del alcance del curso, y siempre te serán proporcionados.
+      </li>
+      <li>En la pestaña "Settings" debes especificar una puerta de enlace por defecto "Default Gateway", para ello
+        utilizaremos la dirección IP del router que representa nuestra conexión a internet: <strong>192.168.0.1</strong>
+      </li>
+      <li>Con esto queda lista la interfaz para conectarse a la red. En este dispositivo los cambios quedan guardados
+        automáticamente.</li>
+    </ol>
+  </div>
+</div>
+
+<img class="screenshot"
+  src="https://raw.githubusercontent.com/4GeeksAcademy/intro-packettracer/main/assets/switch-1.png" alt="">
+
+<div class="container">
+  <div class="box">
+    <h3>Connecting the server to the network</h3>
+    <ol>
+      <li>Has click en el botón "Save" de las opciones "NVRAM". Esto va a guardar la configuración del equipo aun
+        después de que este se haya apagado. Si no realizas este paso tendrás que configurar el equipo de nuevo si se
+        reinicia.</li>
+    </ol>
+  </div>
+  <div class="box">
+    <h3>Conectando el servidor a la red</h3>
+    <ol>
+      <li>Para esto utilizaremos la funcion de conexion automática, para esto seleccionaremos el icono del rayo naranja
+        en la seccion "Connections"</li>
+    </ol>
+  </div>
+</div>
+<img class="screenshot"
+  src="https://raw.githubusercontent.com/4GeeksAcademy/intro-packettracer/main/assets/switch-1.png" alt="">
+<div class="container">
+  <div class="box">
+    <ol start="2">
+      <li>Has click en el botón "Save" de las opciones "NVRAM". Esto va a guardar la configuración del equipo aun
+        después de que este se haya apagado. Si no realizas este paso tendrás que configurar el equipo de nuevo si se
+        reinicia.</li>
+    </ol>
+  </div>
+  <div class="box">
+    <ol start="2">
+      <li>Cuando el cursor cambie, podremos hacer click en el servidor y luego en el switch para hacer el enlace. Esta
+        herramienta determina automáticamente el tipo de enlace correcto y selecciona una interfaz compatible</li>
+    </ol>
+  </div>
+</div>

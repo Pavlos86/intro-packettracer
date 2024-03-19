@@ -1,0 +1,152 @@
+<style>
+  .box {
+    border-left: 2px black solid;
+    padding: 5px;
+    width: 50%;
+  }
+
+  .brand {
+    max-width: 30%;
+    float: left;
+    position: relative;
+  }
+
+  li {
+    padding-bottom: 10px;
+  }
+hr{
+  width: 100%;
+}
+  .screenshot {
+    max-width: 100%;
+    border: 1px solid black;
+    margin: 5px;
+  }
+
+  .quote {
+    padding: 5px 15px;
+    border-left: solid gray 1px;
+    margin: 0px;
+    font-style: italic;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+</style>
+<img class="brand" src="https://breathecode.herokuapp.com/v1/media/file/new-logo-4geeks-png" alt="4geeks Logo">
+<div class="container">
+  <div class="box">
+    <h2>
+      Setting up the server
+    </h2>
+    <p>
+      A server is a device on our network that, as its name suggests, provides services to other devices. In this case, the service we will configure is DHCP, which is responsible for automatically assigning IP addresses to all devices that connect to the network. This will save us from having to manually configure IP addresses on all devices one by one.
+    </p>
+    <h3>On "Server 0 "</h3>
+    <ol>
+      <li>Click on the device icon to open its configuration window.
+      </li>
+      <li>Turn on the server by clicking the switch; the LED will turn green.
+      </li>
+      <li>Go to the "Config" tab. You may have to wait a short time while the device boots up, just like in real life.
+      </li>
+      <li>In the left panel, select the "FastEthernet0" interface.
+      </li>
+      <li>Within the interface, activate it with the "Port Status" checkbox.
+      </li>
+      <li>You will also need to configure an IP address and subnet mask:
+        <ul>
+          <li><strong>IPV4 Address:</strong> 192.168.0.10</li>
+          <li><strong>Subnet Mask:</strong> 255.255.255.0</li>
+        </ul>
+        We will use a different IP address, but within the same range. The calculations for these IP ranges are beyond
+        the scope of this course and will always be provided to you.
+      </li>
+      <li>In the "Settings" tab, you must specify a default gateway. For this, we will use the IP address of the router
+        that represents our internet connection: <strong>192.168.0.1.</strong>
+      </li>
+      <li>With this, the interface is ready to connect to the network. On this device, changes are saved automatically.
+      </li>
+    </ol>
+  </div>
+  <div class="box">
+    <h2>
+      Configurando el servidor
+    </h2>
+    <p>
+      El servidor es un dispositivo de nuestra red, que como su nombre lo indica, presta servicios a los demás
+      dispositivos. En este caso el servicio que configuraremos es el DHCP, que se encarga de asignar direcciones IP
+      automáticamente a todos los dispositivos que se conecten a la red. Con esto evitaremos tener que configurar
+      direcciones IP manualmente a todos los dispositivos uno por uno.
+    </p>
+    <h3>En el "Server 0"</h3>
+    <ol>
+      <li>Haciendo click en el icono del dispositivo se abre la ventana de configuración de este</li>
+      <li>Enciende el servidor haciendo click en el interruptor, verás como el led cambia a verde</li>
+      <li>Luego deberías ir a la pestaña "Config". Puede que tengas que esperar un breve tiempo mientras el equipo
+        enciende, justo como en la vida real</li>
+      <li>En el panel izquierdo, selecciona la interfaz "FastEthernet0"</li>
+      <li>Dentro de la interfaz, activala con la casilla de verificación de "Port Status"</li>
+      <li>Ademas también tendrás que configurar una dirección IP y una mascara de subred
+        <ul>
+          <li><strong>IPV4 Address:</strong> 192.168.0.10</li>
+          <li><strong>Subnet Mask:</strong> 255.255.255.0</li>
+        </ul>
+        Colocaremos una dirección IP distinta, pero dentro del mismo rango. Los cálculos de estos rangos de IP quedan
+        fuera del alcance del curso, y siempre te serán proporcionados.
+      </li>
+      <li>En la pestaña "Settings" debes especificar una puerta de enlace por defecto "Default Gateway", para ello
+        utilizaremos la dirección IP del router que representa nuestra conexión a internet: <strong>192.168.0.1</strong>
+      </li>
+      <li>Con esto queda lista la interfaz para conectarse a la red. En este dispositivo los cambios quedan guardados
+        automáticamente.</li>
+    </ol>
+  </div>
+</div>
+<img class="screenshot" src="https://raw.githubusercontent.com/4GeeksAcademy/intro-packettracer/main/assets/server-1.png" alt="">
+<img class="screenshot" src="https://raw.githubusercontent.com/4GeeksAcademy/intro-packettracer/main/assets/server-2.png" alt="">
+<img class="screenshot" src="https://raw.githubusercontent.com/4GeeksAcademy/intro-packettracer/main/assets/server-3.png" alt="">
+<hr>
+<div class="container">
+  <div class="box">
+    <h3>Connecting the server to the switch</h3>
+    <ol>
+      <li>To use the auto-connect feature, we will select the orange  lightning bolt icon in the "Connections" section.</li>
+    </ol>
+  </div>
+  <div class="box">
+    <h3>Conectando el servidor al switch</h3>
+    <ol>
+      <li>Para esto utilizaremos la función de conexión automática, para esto seleccionaremos el icono del rayo naranja
+        en la sección "Connections"</li>
+    </ol>
+  </div>
+</div>
+
+<img class="screenshot"
+  src="https://raw.githubusercontent.com/4GeeksAcademy/intro-packettracer/main/assets/server-4.png" alt="">
+
+<div class="container">
+  <div class="box">
+    <ol start="2">
+      <li>When the cursor changes, we can click on the server and then on the switch to create the link. This tool automatically determines the correct link type and selects a compatible interface.</li>
+    </ol>
+  </div>
+  <div class="box">
+    <ol start="2">
+      <li>Cuando el cursor cambie, podremos hacer click en el servidor y luego en el switch para hacer el enlace. Esta
+        herramienta determina automáticamente el tipo de enlace correcto y selecciona una interfaz compatible</li>
+    </ol>
+  </div>
+</div>
+<img class="screenshot"
+  src="https://raw.githubusercontent.com/4GeeksAcademy/intro-packettracer/main/assets/server-5.png" alt="">

@@ -1,0 +1,150 @@
+<style>
+  .box {
+    border-left: 2px black solid;
+    padding: 5px;
+    width: 50%;
+  }
+
+  .brand {
+    max-width: 30%;
+    float: left;
+    position: relative;
+  }
+
+  .screenshot {
+    max-width: 100%;
+    border: 1px solid black;
+    margin: 5px;
+  }
+  .quote{
+    padding: 5px 15px;
+    border-left: solid gray 1px;
+    margin: 0px;
+    font-style: italic;
+  }
+  li{
+    padding-bottom: 10px;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+</style>
+<img class="brand" src="https://breathecode.herokuapp.com/v1/media/file/new-logo-4geeks-png" alt="4geeks Logo">
+<div class="container">
+  <div class="box">
+    <h2>
+      Setting up the link
+    </h2>
+    <p>
+      Now that we have a fiber optic cable connecting our devices, it is time to configure the devices to communicate
+      with each other using said cable. To do this, we will turn on the devices and configure the interfaces with IP
+      addresses.
+    </p>
+    <h3>On "Switch 0"</h3>
+    <ol>
+      <li>Clicking on the device icon opens the configuration window for this device</li>
+      <li>Turn on the switch by clicking on the switch</li>
+      <li>Then you should go to the "Config" tab. You may have to wait a short time for the device to turn on, just like
+        in real life</li>
+      <li>In the left panel, select the "GigabitEthernet6/1" interface</li>
+      <li>In the interface, activate the checkbox "Port Status"
+        <div class="quote">Repeat the process of activation of the port status checkbox for all the interfaces of the switch, from the "FastEthernet0/1" up until the "FastEthernet5/1"</div>
+      </li>      
+      <li>Then select the "Settings" option in the left panel</li>
+      <li>Click on the "Save" button of the "NVRAM" options. This will save the device configuration even after the
+        device has been turned off. If you do not perform this step, you will have to configure the device again if it
+        restarts.</li>
+    </ol>
+  </div>
+  <div class="box">
+    <h2>
+      Configuración del enlace
+    </h2>
+    <p>
+      Ahora que tenemos un cable de fibra óptica conectando nuestros dispositivos, es hora de configurar los equipos
+      para que se comuniquen entre si mediante dicho cable. Para ello encenderemos los dispositivos y configuraremos las
+      interfaces con direcciones IP.
+    </p>
+    <h3>En el "Switch 0"</h3>
+    <ol>
+      <li>Haciendo click en el icono del dispositivo se abre la ventana de configuración de este</li>
+      <li>Enciende el switch haciendo click en el interruptor</li>
+      <li>Luego deberías ir a la pestaña "Config". Puede que tengas que esperar un breve tiempo mientras el equipo
+        enciende, justo como en la vida real</li>
+      <li>En el panel izquierdo, selecciona la interfaz "GigabitEthernet6/1"</li>
+      <li>Dentro de la interfaz, activala con la casilla de verificación de "Port Status"
+        <div class="quote">Repite el proceso de activación de la casilla de verificación de "Port Status" para todas las interfaces del switch, desde las "FastEthernet0/1" hasta la "FastEthernet5/1"</div>
+      </li>
+      <li>Luego selecciona la opción "Settings" en el panel izquierdo</li>
+      <li>Has click en el botón "Save" de las opciones "NVRAM". Esto va a guardar la configuración del equipo aun
+        después de que este se haya apagado. Si no realizas este paso tendrás que configurar el equipo de nuevo si se
+        reinicia.</li>
+    </ol>
+  </div>
+</div>
+
+<img class="screenshot"
+  src="https://raw.githubusercontent.com/4GeeksAcademy/intro-packettracer/main/assets/switch-1.png" alt="">
+<img class="screenshot"
+  src="https://raw.githubusercontent.com/4GeeksAcademy/intro-packettracer/main/assets/switch-2.png" alt="">
+<img class="screenshot"
+  src="https://raw.githubusercontent.com/4GeeksAcademy/intro-packettracer/main/assets/switch-3.png" alt="">
+
+<div class="container">
+  <div class="box">
+    <h3>On "Router 0"</h3>
+    <ol>
+      <li>Clicking on the device icon opens the configuration window for this device</li>
+      <li>Turn on the router by clicking on the switch</li>
+      <li>Then you should go to the "Config" tab. Like with the switch, you may have to wait a short time for the device
+        to turn on.</li>
+      <li>In the left panel, select the "GigabitEthernet0/0" interface</li>
+      <li>Within the interface, activate it with the "Port Status" checkbox</li>
+      <li>In addition, you will also need to configure an IP address and a subnet mask</li>
+      <ul>
+        <li><strong>IPV4 Address:</strong> 192.168.0.1</li>
+        <li><strong>Subnet Mask:</strong> 255.255.255.0</li>
+      </ul>
+      </li>
+      <li>Then select the "Settings" option in the left panel</li>
+      <li>Click on the "Save" button of the "NVRAM" options. This will save the device configuration even after the
+        device has been turned off. If you do not perform this step, you will have to configure the device again if it
+        restarts.</li>
+    </ol>
+  </div>
+  <div class="box">
+    <h3>En el "Router 0"</h3>
+    <ol>
+      <li>Haciendo click en el icono del dispositivo se abre la ventana de configuración de este</li>
+      <li>Enciende el router haciendo click en el interruptor</li>
+      <li>Luego deberás ir a la pestaña "Config". Igual que con el switch, puede que tengas que esperar un breve tiempo
+        mientras el equipo enciende.</li>
+      <li>En el panel izquierdo, selecciona la interfaz "GigabitEthernet0/0"</li>
+      <li>Dentro de la interfaz, activala con la casilla de verificación de "Port Status"</li>
+      <li>Ademas también tendrás que configurar una dirección IP y una mascara de subred
+        <ul>
+          <li><strong>IPV4 Address:</strong> 192.168.0.1</li>
+          <li><strong>Subnet Mask:</strong> 255.255.255.0</li>
+        </ul>
+      </li>
+      <li>Luego selecciona la opción "Settings" en el panel izquierdo</li>
+      <li>Has click en el botón "Save" de las opciones "NVRAM". Esto va a guardar la configuración del equipo aun
+        después de que este se haya apagado. Si no realizas este paso tendrás que configurar el equipo de nuevo si se
+        reinicia.</li>
+    </ol>
+  </div>
+</div>
+<img class="screenshot"
+  src="https://raw.githubusercontent.com/4GeeksAcademy/intro-packettracer/main/assets/router-1.png" alt="">
+<img class="screenshot"
+  src="https://raw.githubusercontent.com/4GeeksAcademy/intro-packettracer/main/assets/router-2.png" alt="">
+<img class="screenshot"
+  src="https://raw.githubusercontent.com/4GeeksAcademy/intro-packettracer/main/assets/router-3.png" alt="">
