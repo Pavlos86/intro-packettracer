@@ -1,57 +1,54 @@
-<!--hide-->
-# Introduccion a Packet Tracer
-<!--endhide-->
+---
+title: "Introdución a Packet Tracer"
+subtitle: "Aprende qué es Packet Tracer y cómo instalar esta útil herramienta"
+tags: ["ciberseguridad"]
+authors: ["blindma1den", "lorenagubaira"]
 
-Cisco™ Packet Tracer es una herramienta de simulación de redes desarrollada por Cisco. Permite crear redes virtuales completas, con routers, switches, firewalls y otros dispositivos, para luego ejecutar pruebas y simulaciones.
+---
 
-Es una herramienta ideal para aprender sobre redes y ciberseguridad, ya que te permite:
+Cisco™ Packet Tracer is a network simulation tool developed by Cisco. It allows you to create complete virtual networks, with routers, switches, firewalls and other devices, and then run tests and simulations.
 
-- Experimentar de forma segura: Puedes crear escenarios de ataque sin riesgo para equipos o datos reales.
-- Visualizar el tráfico de red: Observa cómo se envían y reciben los datos en la red, lo que te ayuda a comprender mejor cómo funcionan los protocolos y las vulnerabilidades.
-- Practicar la resolución de problemas: Puedes enfrentar diferentes tipos de ataques y probar diferentes soluciones para defender la red.
-- Aprender sobre diferentes tecnologías de seguridad: Puedes implementar firewalls, sistemas de detección de intrusiones (IDS), y otras medidas de seguridad para proteger la red.
+It is an ideal tool for learning about networks and cybersecurity, as it allows you to:
 
-En resumen, Packet Tracer es una herramienta poderosa y versátil que te permite aprender sobre redes y ciberseguridad de forma práctica y segura.
+- Experiment safely: You can create attack scenarios without risk to real equipment or data.
+- Visualize network traffic: See how data is sent and received on the network, which helps you better understand how protocols and vulnerabilities work.
+- Practice troubleshooting: You can face different types of attacks and try different solutions to defend the network.
+- Learn about different security technologies: You can implement firewalls, intrusion detection systems (IDS), and other security measures to protect the network.
+In short, Packet Tracer is a powerful and versatile tool that allows you to learn about networking and cybersecurity in a practical and safe way.
 
-## 🔍 Como instalar Packet Tracer
+## 🔍 How to install Packet Tracer
 
-### Para descargar Packet Tracer
+### To download Packet Tracer
 
-1. Accede al siguiente [este enlace](https://www.netacad.com/portal/resources/packet-tracer).
-2. Necesitarás crear una cuenta para entrar, acceder con tu cuenta de Google facilita el proceso.
-3. Ubica la seccion "Download".
-4. Elige la versión compatible con tu sistema operativo (Windows, macOS o Linux).
-5. Haz clic en el enlace de descarga y guarda el archivo en tu computadora.
+1. Access the following [this link](https://www.netacad.com/portal/resources/packet-tracer).
+2. You will need to create an account to log in, logging in with your Google account makes the process easier.
+3. Locate the "Download" section.
+4. Choose the version compatible with your operating system (Windows, macOS or Linux).
+5. Click on the download link and save the file to your computer.
 
-### Para instalar Packet Tracer
+### To install Packet Tracer
 
-1. Ejecuta el archivo de instalación que descargaste.
-2. Sigue las instrucciones en pantalla para completar la instalación.
-3. Acepta los términos y condiciones de la licencia.
-4. Elige la ubicación donde deseas instalar Packet Tracer.
-5. Haz clic en "Instalar" para comenzar la instalación.
-6. Una vez finalizada la instalación, puedes iniciar Packet Tracer.
+1. Run the installation file you downloaded.
+2. Follow the on-screen instructions to complete the installation.
+3. Accept the license terms and conditions.
+4. Choose the location where you want to install Packet Tracer.
+5. Click "Install" to start the installation.
+6. Once the installation is complete, you can start Packet Tracer.
 
-## 💻 Interfaz de Packet Tracer
+## 💻 Packet Tracer interface
 
-Esta es la ventana de Packet Tracer, vamos a identificar las areas que vamos a trabajar.
+This is the Packet Tracer window, let's identify the areas we are going to work on.
 
-![Interfaz de Packet Tracer](./assets/pkt-interface.png)
+![Packet Tracer interface](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/pkt-interface.png?raw=true)
 
-1. Tipos de dispositivos: Aquí puedes encontrar organizados por categorías los distintos dispositivos que puedes representar en Packet Tracer, desde dispositivos de red como switches y routers, hasta dispositivos IOT como un ventilador inteligente.
+1. Device types: Here you can find organized by categories the different devices that you can represent in Packet Tracer, from network devices such as switches and routers, to IOT devices such as a smart fan.
+2. Devices: Displays the devices that are in the category selected in the previous section. From here you can drag and drop them wherever you want in the Workspace.
+3. Work area: This is where you will arrange the different devices and connect them to set up your network. In this course we will focus on the logical view, where you can build a graphical representation of your network and configure it. Packet Tracer also allows you to simulate physical spaces and connections between different spaces, but as mentioned, this is beyond the scope of this course.
+4. Activity instructions: In this window you can see step-by-step instructions to perform the activity. You can go back and forth as you need to advance or review a previous step, and in real time you can see the percentage of completion of your activity. If you close the window, you can reopen it from the "Window" menu.
+5. Connectivity tests: This list shows you the connection tests between devices in your simulation, with this you can check which device is connecting and which is not.
+6. Toolbar: As in any application, this bar shows you with icons the most used options. With time you will be able to identify each icon, but by placing the cursor over it you can read the name of the function that executes the icon.
+7. Menu bar: All the functions that are on the toolbar, and some that are not, you can locate in these menus.
 
-2. Dispositivos: Muestra los dispositivos que se encuentran en la categoría seleccionada en la sección anterior. Desde aquí puedes arrastrarlos y colocarlos donde quieras en el Area de trabajo
+## 📝 Create your first network
 
-3. Area de trabajo: Aquí es donde iras acomodando los distintos dispositivos y conectándolos para armar tu red. En este curso nos enfocaremos en la vista lógica, donde puedes armar una representación gráfica de tu red y configurarla. Packet Tracer también permite simular espacios físicos y conexiones entre distintos espacio, pero como se mencionó, esto va mas allá del alcance de este curso.
-
-4. Instrucciones de la actividad: En esta ventana puedes ver paso a paso las instrucciones para realizar la actividad. Puedes ir adelante y atrás en la medida que vayas necesitando avanzar o revisar algún paso previo, y en tiempo real puedes ver el porcentaje de completación de tu actividad. Si llegas a cerrar la ventana, puedes volver a abrirla desde el menú "Window".
-
-5. Pruebas de conectividad: Esta lista te muestra las pruebas de conexión entre dispositivos de tu simulación, con esto compruebas qué dispositivo se está conectando y cual no.
-
-6. Barra de herramientas: Como en cualquier aplicación esta barra te muestra con íconos las opciones mas utilizadas. Con el tiempo podrás identificar cada ícono, pero colocando el cursor encima puedes leer el nombre de la función que ejecuta el ícono.
-
-7. Barra de menú: Todas las funciones que se encuentran en la barra de herramientas, y algunas que no, las puedes ubicar en estos menús.
-
-## 📝 Crea tu primera red
-
-[Descarga aquí](https://github.com/4GeeksAcademy/intro-packettracer/raw/main/assets/Intro-packet-tracer.pka) la guía interactiva que te guiará en la conexión de tu primera red en Packet Tracer. Con ello aprenderás los fundamentos de esta herramienta que te servirán para el resto del curso, donde tendrás que simular escenarios para análisis de ciberseguridad.
+[Download here](https://github.com/4GeeksAcademy/intro-packettracer/raw/main/assets/Intro-packet-tracer.pka) the interactive guide that will guide you through the connection of your first network in Packet Tracer. With it you will learn the basics of this tool that will serve you for the rest of the course, where you will have to simulate scenarios for cybersecurity analysis.
