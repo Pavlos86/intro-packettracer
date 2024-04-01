@@ -1,6 +1,6 @@
 ---
 title: "Introduccion a Packet Tracer"
-subtitle: "Aprende qué es Packet Tracer y cómo instalar esta útil herramienta"
+subtitle: "Learn what Packet Tracer is and how to install this useful tool"
 tags: ["cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
