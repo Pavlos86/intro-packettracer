@@ -1,6 +1,10 @@
-<!--hide-->
-# Introduccion a Packet Tracer
-<!--endhide-->
+---
+title: "Introduccion a Packet Tracer"
+subtitle: "Aprende qué es Packet Tracer y cómo instalar esta útil herramienta"
+tags: ["cybersecurity"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 Cisco™ Packet Tracer es una herramienta de simulación de redes desarrollada por Cisco. Permite crear redes virtuales completas, con routers, switches, firewalls y otros dispositivos, para luego ejecutar pruebas y simulaciones.
 
@@ -36,7 +40,7 @@ En resumen, Packet Tracer es una herramienta poderosa y versátil que te permite
 
 Esta es la ventana de Packet Tracer, vamos a identificar las areas que vamos a trabajar.
 
-![Interfaz de Packet Tracer](./assets/pkt-interface.png)
+![Interfaz de Packet Tracer](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/pkt-interface.png?raw=true)
 
 1. Tipos de dispositivos: Aquí puedes encontrar organizados por categorías los distintos dispositivos que puedes representar en Packet Tracer, desde dispositivos de red como switches y routers, hasta dispositivos IOT como un ventilador inteligente.
 
