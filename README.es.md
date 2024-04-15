@@ -40,7 +40,7 @@ En resumen, Packet Tracer es una herramienta poderosa y versátil que te permite
 
 Esta es la ventana de Packet Tracer, vamos a identificar las areas que vamos a trabajar.
 
-![Interfaz de Packet Tracer](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/pkt-interface.png?raw=true)
+![Interfaz de Packet Tracer](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ppkt-interface.png?raw=true)
 
 1. Tipos de dispositivos: Aquí puedes encontrar organizados por categorías los distintos dispositivos que puedes representar en Packet Tracer, desde dispositivos de red como switches y routers, hasta dispositivos IOT como un ventilador inteligente.
 
